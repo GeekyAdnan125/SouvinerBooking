@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(https://souvinerbooking-34sxazfmg-adnan-alam-s-projects.vercel.app/)", "destination": "/" }
+  ]
+}

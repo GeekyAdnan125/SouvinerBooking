@@ -22,7 +22,7 @@ const App = () => {
       <ToastContainer position="top-right" autoClose={3000} />
       
       {/* ✅ Render Navbar only if logged in AND not on /login or /signup */}
-      {user && !isAuthPage && <Navbar />}
+      { !isAuthPage && <Navbar />}
 
       <Routes>
         {isVendor ? (
